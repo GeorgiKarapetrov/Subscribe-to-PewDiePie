@@ -24,11 +24,10 @@ class TheHollyOne:
         pg.init()
         pg.display.set_caption('Do your part. Subscribe to PewDiePie.')
         self.screen = pg.display.set_mode([800, 500])
-        self.width, self.height = self.screen.get_size()
         self.clock = pg.time.Clock()
-        self.BG = BG = Background('BG.jpg', [0, 0])
+        self.BG = Background('BG.jpg', [0, 0])
         self.HAT = Sprite("Sprite.png", [400, 250])
-        self.EVENTS = EVENTS = [pg.K_LEFT, pg.K_RIGHT, pg.K_DOWN, pg.K_UP] 
+        self.EVENTS = [pg.K_LEFT, pg.K_RIGHT, pg.K_DOWN, pg.K_UP] 
 
     def draw(self):
         self.screen.fill([255, 255, 255])

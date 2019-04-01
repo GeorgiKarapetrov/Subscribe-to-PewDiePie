@@ -32,8 +32,8 @@ class TheHollyOne:
         self.clock = pg.time.Clock()
         self.BG = Background('BG.jpg', [0, 0])
         self.HAT = Sprite("Sprite.png", [400, 250])
-        self.EVENTS = [pg.K_LEFT, pg.K_RIGHT, pg.K_DOWN, pg.K_UP]
         # events
+        self.EVENTS = [pg.K_LEFT, pg.K_RIGHT, pg.K_DOWN, pg.K_UP]
         pg.key.set_repeat(10, 10)
 
     def draw(self):

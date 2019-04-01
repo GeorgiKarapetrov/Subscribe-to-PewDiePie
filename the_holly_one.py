@@ -67,3 +67,6 @@ while True:
     pew.draw()
     pew.wait_for_events()
     pew.process_events()
+
+    #TODO:
+    #Take action on moving hat to certain place.
